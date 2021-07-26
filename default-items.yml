@@ -1,0 +1,48 @@
+# Rarezas:
+# -------------------
+# COMMON = Comun
+# UNCOMMON = No comun
+# RARE = Raro
+# EPIC = Epico
+# FABLED = Legendario
+# MYTHIC = Mitico
+# SPECIAL = Especial
+# -------------------
+# Tipos:
+# -------------------
+# WEAPON = Arma
+# ARMOR = Armadura
+# WAND = Varita
+# BOW = Arco
+# SHIELD = Escudo
+# FOOD = Comida
+# ACCESSORY = Accesorio
+# ELEMENT = Elemento
+# GEM = Gema
+# MINERAL = Mineral
+# ELYTRA = �litros
+# ORB = Orbe
+# OTHER = Otro
+# -------------------
+items:
+  diamond:
+    name: Diamante
+    rarity: UNCOMMON
+    type: MINERAL
+    itemstack:
+      material: DIAMOND
+      durability: 0
+  emerald:
+    name: Esmeralda
+    rarity: RARE
+    type: MINERAL
+    itemstack:
+      material: EMERALD
+      durability: 0
+  iron_ingot:
+    name: Hierro
+    rarity: COMMON
+    type: MINERAL
+    itemstack:
+      material: IRON_INGOT
+      durability: 0
