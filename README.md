@@ -46,7 +46,8 @@ ability = The ability of the item (must be text and an existing ability)
 ```
 ### Extra data
 The "extra" in the itemstack section is the item in base64, this is saved to save the items that have custom tags excluding "khaly", if the item is a textured head, the item in base64 will be initialized in code and so it does not lose the texture that you already have.
-<br>
+<br><br>
 In the "default-items" file the default items will be saved, if there is an item without data and it is saved in that file, it will be updated, to achieve this, the name of the section must be the same as the [Material](https://helpch.at/docs/1.12.2/index.html?org/bukkit/Material.html), and the rest, there are already examples. You can add attributes to the items.
+<br>
 ### Contribute
 You can contribute by making a [pull request](https://github.com/KhalyRPG/khaly-items/pulls) in [this repository](https://github.com/KhalyRPG/khaly-items/).
