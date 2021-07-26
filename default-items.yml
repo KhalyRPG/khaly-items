@@ -20,14 +20,14 @@
 # ELEMENT = Elemento
 # GEM = Gema
 # MINERAL = Mineral
-# ELYTRA = �litros
+# ELYTRA = Elitros
 # ORB = Orbe
 # OTHER = Otro
 # -------------------
 items:
   diamond:
     name: Diamante
-    rarity: UNCOMMON
+    rarity: RARE
     type: MINERAL
     itemstack:
       material: DIAMOND
@@ -39,9 +39,16 @@ items:
     itemstack:
       material: EMERALD
       durability: 0
+  gold_ingot:
+    name: Lingote de oro
+    rarity: RARE
+    type: MINERAL
+    itemstack:
+      material: GOLD_INGOT
+      durability: 0
   iron_ingot:
-    name: Hierro
-    rarity: COMMON
+    name: Lingote de hierro
+    rarity: UNCOMMON
     type: MINERAL
     itemstack:
       material: IRON_INGOT
